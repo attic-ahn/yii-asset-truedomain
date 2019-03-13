@@ -1,0 +1,51 @@
+{
+    "name": "ahnames/yii-asset-truedomain",
+    "type": "yii2-extension",
+    "description": "truedomain.biz asset files: images, configs and more",
+    "keywords": [
+        "truedomain",
+        "asset",
+        "extension",
+        "yii"
+    ],
+    "homepage": "https://github.com/ahnames/yii-asset-truedomain",
+    "license": "proprietary",
+    "support": {
+        "email": "support@ahnames.com",
+        "source": "https://github.com/ahnames/yii-asset-truedomain",
+        "issues": "https://github.com/ahnames/yii-asset-truedomain/issues",
+        "wiki": "https://github.com/ahnames/yii-asset-truedomain/wiki"
+    },
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "email": "sol@hiqdev.com",
+            "homepage": "https://hipanel.com/"
+        },
+        {
+            "name": "Dmitry Naumenko",
+            "email": "d.naumenko.a@gmail.com",
+            "homepage": "http://silverfire.me/"
+        }
+    ],
+    "require-dev": {
+        "hiqdev/hidev-php": "dev-master",
+        "ahnames/hidev-ahnames": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "ahnames\\assets\\truedomain\\": "src"
+        }
+    },
+    "extra": {
+        "config-plugin": {
+            "params": "config/params.php"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}

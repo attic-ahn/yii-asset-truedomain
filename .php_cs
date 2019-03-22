@@ -1,10 +1,10 @@
 <?php
 
 $header = <<<EOF
-0domain.name asset files: images, configs and more
+truedomain.biz asset files: images, configs and more
 
-@link      https://github.com/ahnames/yii-asset-0domain
-@package   yii-asset-0domain
+@link      https://github.com/ahnames/yii-asset-truedomain
+@package   yii-asset-truedomain
 @license   proprietary
 @copyright Copyright (c) 2018, AHnames (https://ahnames.com/)
 EOF;
